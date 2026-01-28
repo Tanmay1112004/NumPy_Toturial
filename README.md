@@ -1,98 +1,83 @@
-# 🧩 NumPy Fundamentals
+# 🧩 NumPy Fundamentals: The Essential Guide
 
-This repository contains my complete **NumPy learning notes, code examples, and practice exercises** — covering everything from the basics to intermediate-level array operations.  
-Perfect for beginners in **Data Science**, **AI/ML**, or **Python programming** who want to master NumPy hands-on.
-
----
-
-## 📚 Contents
-
-### 🔹 1. Creating Arrays
-- Convert lists to arrays  
-- Multi-dimensional arrays (1D, 2D, 3D)
-
-### 🔹 2. Array Attributes
-- `.shape`, `.size`, `.dtype`, `.ndim`
-
-### 🔹 3. Array Initialization
-- `zeros()`, `ones()`, `full()`, `eye()`, `arange()`, `linspace()`, `random()`
-
-### 🔹 4. Indexing & Slicing
-- Extracting elements, rows, columns  
-- Slicing in 2D and 3D arrays
-
-### 🔹 5. Reshaping & Flattening
-- `reshape()`, `flatten()`
-
-### 🔹 6. Stacking & Splitting
-- `vstack()`, `hstack()`, `vsplit()`, `hsplit()`
-
-### 🔹 7. Mathematical Operations
-- Element-wise addition, subtraction, multiplication, division  
-- NumPy functions: `square()`, `sqrt()`, `sin()`, `cos()`, etc.
-
-### 🔹 8. Broadcasting
-- Rules and practical examples
-
-### 🔹 9. Statistical Functions
-- `sum()`, `mean()`, `median()`, `std()`, `min()`, `max()`
-
-### 🔹 10. Comparison Operations
-- `==`, `>`, `<`, `np.array_equal()`
-
-### 🔹 11. Handling NaN & Inf
-- `np.isnan()`, `np.nan_to_num()`
-
-### 🔹 12. Save & Load Arrays
-- `np.save()`, `np.load()`
+This repository serves as a comprehensive toolkit for **NumPy learning notes, code examples, and practice exercises**. Whether you are diving into Data Science, AI/ML, or Computational Physics, this guide bridges the gap between basic Python and high-performance array manipulation.
 
 ---
 
-## 🧠 Homework Solutions
+## 🗺️ Curriculum Roadmap
 
-### Q1. Create a 5×5 Matrix
-- Extract last row  
-- Extract first column  
-- Extract 3×3 sub-matrix  
+### 1. The Basics
 
-### Q2. Broadcasting Example
-- Multiply shape `(3,1)` matrix with `(3,)` matrix using NumPy broadcasting
+* **Array Creation:** Transforming Python lists into high-performance `ndarrays`.
+* **Attributes:** Mastering the "anatomy" of an array using `.shape`, `.size`, `.dtype`, and `.ndim`.
+* **Initialization:** Generating data on the fly with `zeros()`, `ones()`, `linspace()`, and `random()`.
 
----
+### 2. Manipulation & Shape-Shifting
 
-## 🚀 How to Run
+* **Indexing & Slicing:** Surgical precision in extracting rows, columns, and sub-blocks.
+* **Reshaping:** Moving between dimensions with `reshape()` and `flatten()`.
+* **Joining & Splitting:** Structural assembly using `vstack()`, `hstack()`, and their split counterparts.
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/Tanmay1112004/numpy-fundamentals.git
-   cd numpy-fundamentals
-````
+### 3. Computation Power
 
-2. Install dependencies:
-
-   ```bash
-   pip install numpy
-   ```
-
-3. Run the notebook or script:
-
-   ```bash
-   jupyter notebook
-   ```
-
-   or simply execute your `.py` file.
+* **Vectorized Ops:** Element-wise math and built-in trigonometry/algebra functions.
+* **Broadcasting:** Understanding how NumPy handles arrays of different shapes—the "secret sauce" of efficiency.
+* **Statistics:** Rapid data analysis with `mean()`, `std()`, and `median()`.
+* **Logic & Cleaning:** Boolean comparisons and handling missing data (`NaN`/`Inf`).
 
 ---
 
+## 🧠 Practice Lab (Homework)
+
+Included in this repo are structured challenges to test your intuition:
+
+| Challenge | Focus Area | Key Task |
+| --- | --- | --- |
+| **Q1: Matrix Surgery** | Indexing | Extract sub-matrices and specific vectors from a  matrix. |
+| **Q2: Dimensions** | Broadcasting | Multiply a  matrix with a  vector to understand expansion rules. |
+
+---
+
+## 🚀 Getting Started
+
+### Installation
+
+Ensure you have Python installed, then set up your environment:
+
+```bash
+# Clone the repository
+git clone https://github.com/Tanmay1112004/numpy-fundamentals.git
+cd numpy-fundamentals
+
+# Install NumPy
+pip install numpy
+
+```
+
+### Usage
+
+You can explore the exercises via Jupyter Notebooks or standard Python scripts:
+
+```bash
+# Launch the learning environment
+jupyter notebook
+
+```
+
+---
+
+## 🛠 Tech Stack
+
+* **Language:** Python
+* **Library:** NumPy
+* **Environment:** Jupyter Notebook / VS Code
+
+---
 
 ## 🧡 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the **MIT License**. Feel free to use, modify, and share!
 
----
-
-> “Learning by doing — because code hits different when you actually run it.”
-
-```
+> *"Learning by doing — because code hits different when you actually run it."*
 
 ---
